@@ -3,7 +3,7 @@
 Products API returns a list of products based on certain rules. This API is based off on OpenAPI specs and can be viewed on swagger
 
 ## Live Environment
-This API is hosted using netlify free tier and allows only 10 requests per day. This is done to save my monthly quota on Netlify. In case this is not sufficient, please write to ![ia7gvgj9 (1)](https://user-images.githubusercontent.com/4143476/169021982-177b203b-300b-4d9c-b54f-3610599c0c09.gif)
+This API is hosted on my local machine and  cloudflare tunnel routes the traffic from https://mytheresa-test.codingdev.xyz/swagger/index.html to my localhost.This API only allows only 10 requests per day. This is done to save my local machines from a lot of requests . In case, this quota of 10 requests is not sufficient, please write to ![ia7gvgj9 (1)](https://user-images.githubusercontent.com/4143476/169021982-177b203b-300b-4d9c-b54f-3610599c0c09.gif)
 
 
 ## Pre-Requesite
