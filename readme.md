@@ -1,4 +1,4 @@
-#Products-API
+# Products-API
 
 ## Live Environment
 This API is hosted using netlify free tier and allows only 10 requests per day. This is done to save my monthly quota on Netlify. In case this is not sufficient, please write to ![me](https://gfycat.com/pointedvacanteskimodog)
