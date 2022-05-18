@@ -1,0 +1,59 @@
+{
+    "schemes": [
+        "http"
+    ],
+    "swagger": "2.0",
+    "info": {
+        "description": "This is a sample API that returns a list of Products.",
+        "title": "Products API",
+        "termsOfService": "http://swagger.io/terms/",
+        "contact": {
+            "name": "anurag Dubey",
+            "url": "http://www.swagger.io/support",
+            "email": "support@swagger.io"
+        },
+        "license": {
+            "name": "Apache 2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+        },
+        "version": "1.0"
+    },
+    "host": "localhost:1234",
+    "basePath": "/",
+    "paths": {
+        "/products": {
+            "get": {
+                "description": "Gets all products",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "products"
+                ],
+                "summary": "Gets all products",
+                "parameters": [
+                    {
+                        "type": "integer",
+                        "description": "price less than",
+                        "name": "priceLessThan",
+                        "in": "query"
+                    },
+                    {
+                        "type": "string",
+                        "description": "category",
+                        "name": "category",
+                        "in": "query"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": ""
+                    }
+                }
+            }
+        }
+    }
+}

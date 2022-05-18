@@ -17,13 +17,13 @@ func New() Logger {
 }
 
 func (logger ConsoleLogger) LogError(message string) {
-	fmt.Println("ERROR:- %s", message)
+	fmt.Println(fmt.Sprintf("ERROR:- %s", message))
 }
 
 func (logger ConsoleLogger) LogWarn(message string) {
-	fmt.Println("WARN:- %s", message)
+	fmt.Println(fmt.Sprintf("WARN:- %s", message))
 }
 
 func (logger ConsoleLogger) LogMessage(message string) {
-	fmt.Println("MESSAGE:- %s", message)
+	fmt.Println(fmt.Sprintf("MESSAGE:- %s", message))
 }

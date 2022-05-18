@@ -1,5 +1,22 @@
 package main
 
+// ref: https://swaggo.github.io/swaggo.io/declarative_comments_format/general_api_info.html
+// @title Products API
+// @version 1.0
+// @description This is a sample API that returns a list of Products.
+// @termsOfService http://swagger.io/terms/
+
+// @contact.name anurag Dubey
+// @contact.url http://www.swagger.io/support
+// @contact.email support@swagger.io
+
+// @license.name Apache 2.0
+// @license.url http://www.apache.org/licenses/LICENSE-2.0.html
+
+// @host localhost:1234
+// @BasePath /
+// @schemes http
+
 import (
 	dataaccess "github.com/anurag252/products-rest-api/database"
 	"github.com/anurag252/products-rest-api/logger"

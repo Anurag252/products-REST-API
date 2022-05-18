@@ -1,0 +1,40 @@
+basePath: /
+host: localhost:1234
+info:
+  contact:
+    email: support@swagger.io
+    name: anurag Dubey
+    url: http://www.swagger.io/support
+  description: This is a sample API that returns a list of Products.
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  termsOfService: http://swagger.io/terms/
+  title: Products API
+  version: "1.0"
+paths:
+  /products:
+    get:
+      consumes:
+      - application/json
+      description: Gets all products
+      parameters:
+      - description: price less than
+        in: query
+        name: priceLessThan
+        type: integer
+      - description: category
+        in: query
+        name: category
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: ""
+      summary: Gets all products
+      tags:
+      - products
+schemes:
+- http
+swagger: "2.0"
