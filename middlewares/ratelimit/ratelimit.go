@@ -10,10 +10,10 @@ import (
 
 var (
 	//number of requests per second
-	Fillrate = 0.00001157407 //1 token per 24 hrs
+	Fillrate = 0.0001157407 //10 token per 24 hrs
 
 	//maximum bucket size
-	BurstRate = 20
+	BurstRate = 30
 )
 
 type RateLimiter interface {
